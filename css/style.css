@@ -1,5 +1,6 @@
 @import "text.css";
 @import "images.css";
+@import "layout.css";
 
 *{
     box-sizing: border-box;
@@ -15,78 +16,46 @@ img{
     max-width: 100%;
 }
 
-.flex-container__header{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 90%;
-    margin: auto;
+/* Media Queries */
+
+@media (max-width:850px){
+    .grid-container__ingredients{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
-.flex-container__info{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 3%;
+@media (max-width:650px){
+    .card__story{
+    display: none;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .title__medium--orange{
+        font-size: 30px;
+        text-align: center;
+    }
+    .title__medium--yellow{
+        font-size: 30px;
+    }
+    ul{
+        font-size: 10px;
+    }
+    .grid-container__ingredients{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    ul{
+        font-size: 30px;
+    }
 }
 
-.grid-container__ingredients{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 90%;
-    margin: auto;
-}
-
-.flex-item__info{
-    padding-right: 10px;
-}
-
-.grid-item__ingredients{
-    text-align: center;
-    margin: 5px 20px;
-}
-
-.gap{
-    padding: 20px;
-}
-
-.grid-container__steps{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 50px;
-    max-width: 70%;
-    margin: auto;
-}
-
-.card{
-    background-color: #D8572A;
-    max-width: 80%;
-    margin: auto;
-    padding: 20px;
-}
-
-.card__ingredients{
-    max-width: 80%;
-    padding-top: 30px;
-    margin: auto;
-    background-color:#F7B538;
-
+@media (max-width:1200px){
+    .grid-container__steps{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 
-.card__step--red{
-    max-width: 80%;
-    margin: auto;
-    background-color:#C32F27;
-    padding: 20px;
-}
-
-footer{
-    background-color: white;
-    max-width: 80%;
-    margin: auto;
-    padding: 20px;
-    background-color: #F7B538;
-}

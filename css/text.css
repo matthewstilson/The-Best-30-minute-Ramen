@@ -3,12 +3,12 @@
 }
 .title{
     color: #F7B538;
-    font-size: 50px;
+    font-size: 75px;
 }
 
 .title__medium--orange{
     color: #D8572A;
-    font-size: 50px;
+    font-size: 75px;
     text-align: center;
 }
 
@@ -26,12 +26,18 @@
 
 .text--orange{
     color: #D8572A;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .text--yellow{
     color: #F7B538;
     font-size: 20px;
+}
+
+.text__story--yellow{
+    color: #F7B538;
+    font-size: 35px;
+    text-align: center;
 }
 
 ul{
