@@ -1,0 +1,92 @@
+@import "text.css";
+@import "images.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    background-image: url(/images/RedWaves.svg);
+    background-size: cover;
+}
+
+img{
+    max-width: 100%;
+}
+
+.flex-container__header{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+.flex-container__info{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.grid-container__ingredients{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 90%;
+    margin: auto;
+}
+
+.flex-item__info{
+    padding-right: 10px;
+}
+
+.grid-item__ingredients{
+    text-align: center;
+    margin: 5px 20px;
+}
+
+.gap{
+    padding: 20px;
+}
+
+.grid-container__steps{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    max-width: 70%;
+    margin: auto;
+}
+
+.card{
+    background-color: #D8572A;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.card__ingredients{
+    max-width: 80%;
+    padding-top: 30px;
+    margin: auto;
+    background-color:#F7B538;
+
+}
+
+
+.card__step--red{
+    max-width: 80%;
+    margin: auto;
+    background-color:#C32F27;
+    padding: 20px;
+}
+
+footer{
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #F7B538;
+}

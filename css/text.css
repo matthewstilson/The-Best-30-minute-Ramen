@@ -1,0 +1,39 @@
+*{
+    font-family: 'Joti One', cursive;
+}
+.title{
+    color: #F7B538;
+    font-size: 50px;
+}
+
+.title__medium--orange{
+    color: #D8572A;
+    font-size: 50px;
+    text-align: center;
+}
+
+.title__medium--yellow{
+    color: #F7B538;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.footertext{
+    text-align: center;
+    color: #D8572A;
+}
+
+.text--orange{
+    color: #D8572A;
+    font-size: 20px;
+}
+
+.text--yellow{
+    color: #F7B538;
+    font-size: 20px;
+}
+
+ul{
+    font-size: 30px;
+}
